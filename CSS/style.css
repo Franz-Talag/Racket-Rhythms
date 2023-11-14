@@ -1,0 +1,449 @@
+*{
+    font-family: Lato;
+} 
+body{
+    background: linear-gradient(245.59deg, #DDF2FD 0%, #427D9D 27.53%, #164863  75.52%);
+}
+.section-padding{
+    padding: 100px 0;
+}
+
+/* carousel section */
+.home{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+}
+.home::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.6;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.carousel-caption p{
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.2;
+    padding-bottom: 25%;
+}
+.w-100{
+    height: 100vh;
+}
+.btn-carousel{
+    border-radius: 100%;
+}
+
+/* navbar section */
+.nav{
+    opacity: 80%;
+    color: white;
+    background-color: #000;
+}
+.navbar{
+    scroll-behavior: smooth;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+/* about section */
+.about{
+    background: #DDF2FD;
+}
+.about-img{
+    text-align: center;
+}
+.about-mission{
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.about-mission h2{
+    color: #164863;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: antonio;
+    letter-spacing: 2px;    
+}
+.about-vision{
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.about-vision h2{
+    color: #164863;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: antonio;
+    letter-spacing: 2px;
+}
+
+/* membership modal section */
+.modal-title-membership{
+    color: #EAFDFC;
+    padding-left: 140px;
+    font-weight: 700;
+    font-family: antonio;
+    letter-spacing: 1px;
+}
+.modal-title-pricing{
+    color: #EAFDFC;
+    padding-left: 200px;
+    font-weight: 700;
+    font-family: antonio;
+    letter-spacing: 1px;
+}
+.modal-body-details{
+    padding: 20px 50px 10px 50px;
+    color: #164863;
+    background-color: #EAFDFC;
+}
+.btn-foot{
+    background-color: #DDF2FD;
+    padding-bottom: 20px;
+}
+
+/* teams modal */
+.img-team{
+    height: 350px;
+    width: 350px;
+}
+.team-houses h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: antonio;
+    letter-spacing: 2px;
+    color: #DDF2FD;
+}
+.team-houses p{
+    color: #DDF2FD;
+    font-size: 20px;
+    font-weight: 400;
+}
+.team-title{
+    color: #DDF2FD;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: antonio;
+    letter-spacing: 1px;
+}
+.card-text-teams{
+    font-size: 20px;
+}
+.modal-header{
+    background: #164863;
+}
+.modal-title-teams{
+    color: #EAFDFC;
+    padding-left: 170px;
+    font-weight: 700;
+    font-family: antonio;
+    letter-spacing: 1px;
+    
+}
+.modal-body-teams{
+    padding: 20px 50px 10px 50px;
+    color: #164863;
+    background-color: #EAFDFC;
+}
+
+/* members section */
+.members-header-title h1{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: antonio;
+    letter-spacing: 2px;
+    color: #EAFDFC;
+}
+.members-title h1{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: antonio;
+    letter-spacing: 2px;
+    color: #164863;
+}
+.img-members{
+    height: 180px;
+    width: 180px;
+}
+.card-text-members{
+    color: #164863;
+    font-size: 17px;
+}
+.MDLbody{
+    background-color: #DDF2FD;
+}
+.members{
+    background-color: #ECF8F9;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+}
+
+/* organizer section */
+.img-organizer{
+    height: 150px;
+    width: 150px;
+}
+.organizer-title h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: antonio;
+    letter-spacing: 2px;
+    color: #164863;
+}
+.card-body h4{
+    font-weight: 700;
+    color: #164863;
+}
+.card-body p{
+    color: #164863;
+}
+.card-text-organizer{
+    font-size: 18px;
+}
+.organizer .card-body{
+    font-size: 15px;
+    background: #EAFDFC;
+    border-radius: 10px;
+}
+.organizer .card{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.20);
+}
+.card-organizer{
+    transition: all .50s ease;
+}
+.card-organizer:hover{
+    transform: translateY(-10px);
+}
+.organizer{
+    background-color: #DDF2FD;
+    position: relative;
+} 
+.bi{
+    width: 20px;
+    height: 20px;
+}
+
+/* footer section */
+.footer{
+    background-color: black;
+    opacity: 70%;
+}
+.footer h2{
+    padding-top: 70px;
+    color: #EAFDFC;
+}
+.footer h4{
+    color: #EAFDFC;
+    padding-left: 2px;
+    opacity: 80%;
+    font-weight: 300;
+}
+.footer-title{
+    margin-left: -150px;
+}
+.fb-icon{
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+.email-icon{
+    padding: 4px;
+}
+.yt-icon{
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+.footer-title p{
+    font-size: 15px;
+    color: #EAFDFC;
+}
+.fb-title{
+    padding-top: 35px;
+    padding-bottom: 10px;   
+}
+.email-title{
+    padding: 7px;
+}
+.yt-title{
+    padding-top: 10px;
+}
+
+/* **** responsive css **** */
+/* screens below 375px */
+@media (max-width: 375px){
+    .carousel-caption h5{
+        font-size: 23px;
+    }
+    .carousel-caption p{
+        font-size: 15px;
+        padding-bottom: 80%;
+    }
+    .about-img{
+        text-align: center;
+    }
+    .about-mission{
+        text-align: center;
+    }
+    .about-vision{
+        text-align: center;
+    }
+    .modal-title-pricing{
+        padding-left: 115px;
+    }
+    .modal-title-membership{
+        padding-left: 65px;
+    }
+    .modal-title-teams{
+        padding-left: 100px;
+    }
+    .footer h2{
+        padding-top: 30px;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .footer p{
+        padding-top: 5px;
+        padding-left: 8px;
+    }
+    .copyright{
+        padding-top: 10px;
+    }
+}
+/* screens between 376px and 425px */
+@media (min-width: 376px) and (max-width: 425px){
+    .carousel-caption h5{
+        font-size: 23px;
+    }
+    .carousel-caption p{
+        font-size: 15px;
+        padding-bottom: 60%;
+    }
+    .modal-title-pricing{
+        padding-left: 140px;
+    }
+    .modal-title-membership{
+        padding-left: 85px;
+    }
+    .modal-title-teams{
+        padding-left: 120px;
+    }
+    .footer h2{
+        padding-top: 30px;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .footer p{
+        padding-top: 5px;
+        padding-left: 8px;
+    }
+    .copyright{
+        padding-top: 10px;
+    }
+}
+/* pang footer to */
+@media (min-width: 992px) and (max-width: 1195px){
+    .footer-title h4{
+        font-size: 18px;
+        padding-left: 38px;
+      }
+      .fb-title{
+          padding-bottom: 20px;
+      }
+      .email-title{
+          padding-bottom: 17px;
+      }
+}
+@media (min-width: 1196px) and (max-width: 1399px){
+    .footer-title h4{
+        font-size: 23px;
+        padding-left: 38px;
+    }
+    .fb-title{
+        padding-bottom: 12px;
+    }
+    .email-title{
+        padding-bottom: 12px;
+    }
+}
+
+/* @media only screen and (max-width: 425px){
+    
+} */
+/* @media only screen and (max-width: 767px){
+    .carousel-caption h5{
+        font-size: 40px;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+        padding-bottom: 30%;
+    }
+    .about-img{
+        text-align: center;
+    }
+    .about-mission{
+        text-align: center;
+    }
+    .about-vision{
+        text-align: center;
+    }
+    .modal-title-pricing{
+        padding-left: 140px;
+    }
+    .modal-title-membership{
+        padding-left: 90px;
+    }
+    .modal-title-teams{
+        padding-left: 130px;
+    }
+} */
+/* @media only screen and (max-width: 1025px){
+    .carousel-caption p{
+        padding-bottom: 35%;
+    }
+    .footer-title h4{
+      font-size: 16px;
+      padding-left: 38px;
+    }
+    .fb-title{
+        padding-bottom: 25px;
+    }
+    .email-title{
+        padding-bottom: 18px;
+    }
+    .members-title h1{
+        font-size: 35px
+    }
+    .members-header-title h1{
+        padding-left: 20px;
+        font-size: 35px;
+    }
+} */
+/* @media only screen and (max-width: 1400px){
+    .footer-title h4{
+        font-size: 20px;
+        padding-left: 35px;
+    }
+    .fb-title{
+     padding-bottom: 18px;   
+    }
+    .email-title{
+        padding-bottom: 14px;
+    }
+} */
